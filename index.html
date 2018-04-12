@@ -60,13 +60,22 @@
 		@media(max-width:640px){
 			.container__item{
 				width: 100%;
+				min-width: auto;
 			}
 		}
 		.container__item--itemHeader{
 			width: 35%;
+			max-width: 530px;
+			max-height: 800px;
 			background: url(foto02.jpg) no-repeat top left;
 			background-size: 100%;
 			box-shadow: 0 0 50px #555;
+		}
+		@media(min-height: 770px){
+			.container__item--itemHeader{
+				background-size: cover;
+				background-position: center;
+			}
 		}
 		@media(max-width:640px){
 			.container__item--itemHeader{
@@ -154,7 +163,7 @@
 		}
 		@media(max-width:640px){
 			.container__item--itemDescription{
-				/*display: none;*/
+				width: 100%;
 			}
 		}
 		.itemDescription__text{
