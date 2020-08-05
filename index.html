@@ -1,237 +1,293 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120360892-2"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120360892-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-	  gtag('config', 'UA-120360892-2');
-	</script>
-	<title>Rômulo Tunala</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script data-ad-client="ca-pub-5474174369209773" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <style>
-		/*https://dribbble.com/shots/2555889-Daily-UI-098-Advertisement*/
-		@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
-		*,*:before, *:after{
-			margin:0;
-			padding:0;
-			box-sizing: border-box;
-		}
-		/*html{
-			height: 100vh;
-		}*/
-		body{
-			width: 100%;
-			min-height: 100vh;
-			background: #f9f9f9 linear-gradient(#b2ffb7,#ffc88e) no-repeat;
-			background-size: 30% 100%;
-			position: relative;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		/*@media(max-width:800px){
-			body{
-				height: 100%;
-			}
-		}*/
-		@media(max-width:640px){
-			body{
-				background-size: 100% 5%;
-				background-position: bottom;
-				display: block;
-			}
-		}
-		.container{
-			width: 80%;
-			height: 80vh;
-			display: flex;
-			/*flex-flow: row wrap;*/
-		}
-		@media(max-width:640px){
-			.container{
-				width: 100%;
-				height: auto;
-				min-height: 80vh;
-				flex-wrap: wrap;
-				align-items: flex-start;
+    gtag('config', 'UA-120360892-2');
+  </script>
+  <title>Rômulo Tunala</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script data-ad-client="ca-pub-5474174369209773" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <style>
+    /*https://dribbble.com/shots/2555889-Daily-UI-098-Advertisement*/
+    @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,800');
 
-			}
-		}
-		.container__item{
-			min-width: 350px;
-			height: 100%;
-		}
-		@media(max-width:640px){
-			.container__item{
-				width: 100%;
-				min-width: auto;
-			}
-		}
-		.container__item--itemHeader{
-			width: 35%;
-			max-width: 530px;
-			max-height: 800px;
-			background: url(foto02.jpg) no-repeat top left;
-			background-size: 100%;
-			box-shadow: 0 0 50px #555;
-		}
-		@media(min-height: 770px){
-			.container__item--itemHeader{
-				background-size: cover;
-				background-position: center;
-			}
-		}
-		@media(max-width:640px){
-			.container__item--itemHeader{
-				width: 100%;
-				max-width: 100%;
-				height: 300px;
-				background-position: 0 -40px;
-			}
-		}
-		@keyframes move{
-			0% {
-				-webkit-transform: rotate(-1deg);
-					transform: rotate(-1deg);
-			}
-			50% {
-				-webkit-transform: rotate(1deg);
-					transform: rotate(1deg);
-			}
-			100%{
-				-webkit-transform: rotate(0deg);
-					transform: rotate(0deg);
-			}
-		}
-		.container__item--itemHeader:hover {
-			animation: move 1s ease;
-		}
-		.itemHeader__mask{
-			width: 100%;
-			height: 100%;
-			background:rgba(0, 168, 14,0.7);
-			position: relative;
-		}
-		.itemHeader__mask p{
-			margin: 40px;
-			position: absolute;
-			right: 0px;
-			color: #fff;
-			font-family: 'Raleway', sans-serif;
-			font-size: 800;
-			font-size: 40px;
-			font-weight: bolder;
-			line-height: 90%;
-		}
-		
-		.itemHeader__mask h1,
-		.itemHeader__mask h2{
-			padding: 10px 0 0 30px;
-			position: absolute;
-			color:#fff;
-			font-family: 'Raleway', sans-serif;
-			font-size: 400;
-		}
-		.itemHeader__mask h1{
-			bottom:16%;
-			right: 10%;
-			font-weight: 700;
-		}
-		.itemHeader__mask h2{
-			bottom:10%;
-			right: 10%;
-			font-weight: 400;
-		}
-		@media(max-width:640px){
-			.itemHeader__mask h1,
-			.itemHeader__mask h2{
-				width: 100%;
-				padding: 0;
-				text-align: center;
-				line-height: 4em;
-				right: auto;
-			}
-			.itemHeader__mask h1{
-				bottom: 20px;
-			}
-			.itemHeader__mask h2{
-				bottom: 0;
-			}
-		}
-		.container__item--itemDescription{
-			width: 65%;
-			padding: 40px; 
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		}
-		@media(max-width:640px){
-			.container__item--itemDescription{
-				width: 100%;
-			}
-		}
-		.itemDescription__text{
-			width: 100%;
-			margin-top:10px;
-			text-align: left;
-			font-size: 20px;
-			font-family: 'Raleway', sans-serif;
-			font-size: 400;
-		}
-		.itemDescription__text--textHead{
-			font-size: 30px;
-			font-family: 'Raleway', sans-serif;
-			font-size: 700;
-		}	
-		.itemDescription__linkSocial{
-			margin:30px;
-			padding: 10px 20px;
-			border:solid #000 1px;
-			border-radius: 30px;
-			text-decoration: none;
-			font-family: 'Raleway', sans-serif;
-			font-size: 400;
-			font-size: 20px;
+    *,
+    *:before,
+    *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-		}
-		.copyRigth{
-			width: 100%;
-			height: 5vh;
-			position: absolute;
-			bottom: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			font-family: 'Raleway', sans-serif;
-			font-size: 400;
-		}
-	</style>
+    /*html{
+      height: 100vh;
+    }*/
+    body {
+      width: 100%;
+      min-height: 100vh;
+      background: #f9f9f9 linear-gradient(#b2ffb7, #ffc88e) no-repeat;
+      background-size: 30% 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /*@media(max-width:800px){
+      body{
+        height: 100%;
+      }
+    }*/
+    @media(max-width:640px) {
+      body {
+        background-size: 100% 5%;
+        background-position: bottom;
+        display: block;
+      }
+    }
+
+    .container {
+      width: 80%;
+      height: 80vh;
+      display: flex;
+      /*flex-flow: row wrap;*/
+    }
+
+    @media(max-width:640px) {
+      .container {
+        width: 100%;
+        height: auto;
+        min-height: 80vh;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+      }
+    }
+
+    .container__item {
+      min-width: 350px;
+      height: 100%;
+    }
+
+    @media(max-width:640px) {
+      .container__item {
+        width: 100%;
+        min-width: auto;
+      }
+    }
+
+    .container__item--itemHeader {
+      width: 35%;
+      max-width: 530px;
+      max-height: 800px;
+      background: url(foto02.jpg) no-repeat top left;
+      background-size: 100%;
+      box-shadow: 0 0 50px #555;
+    }
+
+    @media(min-height: 770px) {
+      .container__item--itemHeader {
+        background-size: cover;
+        background-position: center;
+      }
+    }
+
+    @media(max-width:640px) {
+      .container__item--itemHeader {
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        background-position: 0 -40px;
+      }
+    }
+
+    @keyframes move {
+      0% {
+        -webkit-transform: rotate(-1deg);
+        transform: rotate(-1deg);
+      }
+
+      50% {
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+    }
+
+    .container__item--itemHeader:hover {
+      animation: move 1s ease;
+    }
+
+    .itemHeader__mask {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 168, 14, 0.7);
+      position: relative;
+    }
+
+    .itemHeader__mask p {
+      margin: 40px;
+      position: absolute;
+      right: 0px;
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      font-weight: bolder;
+      line-height: 90%;
+    }
+
+    .itemHeader__mask h1,
+    .itemHeader__mask h2 {
+      padding: 10px 0 0 30px;
+      position: absolute;
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+    }
+
+    .itemHeader__mask h1 {
+      bottom: 16%;
+      right: 10%;
+      font-weight: 700;
+    }
+
+    .itemHeader__mask h2 {
+      bottom: 10%;
+      right: 10%;
+      font-weight: 400;
+    }
+
+    @media(max-width:640px) {
+
+      .itemHeader__mask h1,
+      .itemHeader__mask h2 {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        line-height: 4em;
+        right: auto;
+      }
+
+      .itemHeader__mask h1 {
+        bottom: 20px;
+      }
+
+      .itemHeader__mask h2 {
+        bottom: 0;
+      }
+    }
+
+    .container__item--itemDescription {
+      width: 65%;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media(max-width:640px) {
+      .container__item--itemDescription {
+        width: 100%;
+      }
+    }
+
+    .itemDescription__text {
+      width: 100%;
+      margin-top: 10px;
+      text-align: left;
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+    }
+
+    .itemDescription__text--textHead {
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+    }
+
+    .itemDescription__link {
+      color: #00145D;
+      font-weight: 700;
+    }
+
+    .itemDescription__linkSocial {
+      margin: 30px;
+      padding: 10px 20px;
+      border: solid #000 1px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+
+    }
+
+    .copyRigth {
+      width: 100%;
+      height: 5vh;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+    }
+  </style>
 </head>
+
 <body>
-	<main class="container">
-		<header class="container__item container__item--itemHeader">
-			<div class="itemHeader__mask">
-				<p>hi!</p>
-				<h1 class="title">Rômulo Tunala</h1>
-				<h2 class="subtitle">Front-end developer</h2>
-			</div>
-		</header>
-		<section class="container__item container__item--itemDescription">
-			<h2 class="itemDescription__text itemDescription__text--textHead">About</h2>
-			<hr>
-			<p class="itemDescription__text">Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc., li tot Europa usa li sam vocabularium. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilit? de un nov lingua franca: on refusa continuar payar custosi traductores. It solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles.</p>
-			<a class="itemDescription__linkSocial" href="https://github.com/romulotunala">Github</a>
-		</section>
-	</main>
-	<footer class="copyRigth">
-		<small>© Copyright 2018 - Rômulo Tunala</small>
-	</footer>
+  <main class="container">
+    <header class="container__item container__item--itemHeader">
+      <div class="itemHeader__mask">
+        <p>hi!</p>
+        <h1 class="title">Rômulo Tunala</h1>
+        <h2 class="subtitle">Front-end developer</h2>
+      </div>
+    </header>
+    <section class="container__item container__item--itemDescription">
+      <h2 class="itemDescription__text itemDescription__text--textHead">
+        Olá!
+      </h2>
+      <hr>
+      <p class="itemDescription__text">
+        Me chamo Rômulo...
+      </p>
+      <p class="itemDescription__text">
+        Sou desenvolvedor Front-end formado em Sistema de Informação pelo Institulo Superior de Tecnologia de Paracambi
+        em 2010.
+      </p>
+      <p class="itemDescription__text">
+        Me desenvolvi como front-end em 2017 quando fui instrutor do <a class="itemDescription__link"
+          href="https://www.vainaweb.com.br/">Vai Na Web</a>, um programa de ensino tecnológico em bases comunitárias da
+        1STi.
+      </p>
+      <p class="itemDescription__text">
+        Hoje sou desenvolvedor web (react.js) na <a class="itemDescription__link"
+          href="http://www.1sti.com.br/Assets/pages/sobre.html">1STi</a> uma empresa de constutoria de Deep Tech.
+      </p>
+      <a class="itemDescription__linkSocial" href="https://github.com/romulotunala">Github</a>
+    </section>
+  </main>
+  <footer class="copyRigth">
+    <small>© Copyright 2018 - Rômulo Tunala</small>
+  </footer>
 </body>
+
 </html>
